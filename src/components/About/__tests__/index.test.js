@@ -4,7 +4,6 @@ import '@testing-library/jest-dom/extend-expect';
 import About from '..';
 
 afterEach(cleanup);
-
 describe('About component', () => {
     it('renders', () => {
         render(<About />);
